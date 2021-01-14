@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/dogs', function(req, res) {
-    return res.send(`response = ${res}`)
+    return res.send("Insert dogs here")
 })
 
 app.get('/cats', (req, res) => {
